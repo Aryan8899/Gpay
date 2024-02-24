@@ -1,6 +1,35 @@
 .App {
   text-align: center;
+
 }
+.check{
+  margin-top: -181px;
+    margin-right: -384px;
+    margin-left: -40px 
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* Adjust as needed to fill the height of the viewport */
+}
+
+.centered-image {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed its container's width */
+  max-height: 100%;
+  margin-top: -106px;
+  margin-right: -17px;
+  /* Ensure the image doesn't exceed its container's height */
+}
+
+.qrcode {
+  margin-left: -163px;
+  margin-top: 210px
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,25 +43,34 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e55a4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(199, 25, 25);
 }
 
 .App-link {
   color: #61dafb;
 }
 
+.transfer{
+  width: 350px;
+    height: 203px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+
+
+
 }
